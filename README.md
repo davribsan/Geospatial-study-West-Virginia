@@ -18,10 +18,14 @@ The project implements:
 ## Files
 
 * `population_analysis_wv.ipynb` — main Jupyter notebook containing data preprocessing, visualization, and spatial statistical analysis
-* `counties_detailed.shp` — shapefile with county-level geographic boundaries and demographic data
-* `counties_detailed.dbf` — attribute table associated with the shapefile
-* `counties_detailed.shx` — shapefile index
-* `counties_detailed.prj` — projection information
+* `counties_detailed.shp` — main shapefile containing county geometries and attributes
+* `counties_detailed.shx` — shape index file
+* `counties_detailed.dbf` — attribute table with demographic and population data
+* `counties_detailed.prj` — coordinate reference system definition
+* `counties_detailed.cpg` — character encoding information
+* `counties_detailed.sbn` — spatial index file
+* `counties_detailed.sbx` — spatial index file
+* `counties_detailed.shp.xml` — metadata file describing the shapefile contents
 
 ## Requirements
 
